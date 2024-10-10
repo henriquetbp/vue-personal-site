@@ -4,11 +4,12 @@ import Title from '../components/utils/Title.vue'
 
 <template>
   <div class="about">
-      <img alt="Imagem de perfil" class="profile-img" src="@/assets/img/profile-img.png" width="70%" />
+      <img alt="Imagem de perfil" class="profile-img" src="@/assets/img/profile-image.png" width="70%" />
     <div>
     <Title title="Sobre" msg='"A imaginação é mais importante que o conhecimento, porque o conhecimento é limitado, ao passo que a imaginação abrange o mundo inteiro" - Albert Einstein' />
   </div>
     <p>Sou desenvolvedor web desde 2016, com experiência em projetos personalizados. Apaixonado por criar soluções web eficientes e inovadoras, utilizando as mais recentes tecnologias. Trabalho de forma flexivel, garantindo perfomance e agilidade.</p>
+    <p>Saiba mais em <a href="http://torquato.dev" target="_blank" rel="noopener noreferrer">torquato.dev</a></p>
   </div>
 </template>
 
@@ -23,7 +24,8 @@ import Title from '../components/utils/Title.vue'
 }
 
 .about p {
-  margin: 2rem 0;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
